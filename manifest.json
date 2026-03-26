@@ -2,7 +2,7 @@
   "domain": "lucimed_ble",
   "name": "Lucimed BLE Temperature & Humidity Sensor",
   "version": "1.0.0",
-  "codeowners": [@niepw],
+  "codeowners": ["@niepw"],
   "config_flow": true,
   "dependencies": ["bluetooth"],
   "documentation": "",
