@@ -1,0 +1,19 @@
+{
+  "domain": "lucimed_ble",
+  "name": "Lucimed BLE Temperature & Humidity Sensor",
+  "version": "1.0.0",
+  "codeowners": [@niepw],
+  "config_flow": true,
+  "dependencies": ["bluetooth"],
+  "documentation": "",
+  "integration_type": "device",
+  "iot_class": "local_push",
+  "requirements": [],
+  "bluetooth": [
+    {
+      "manufacturer_id": 2305,
+      "manufacturer_data_start": [1],
+      "connectable": false
+    }
+  ]
+}
